@@ -35,5 +35,4 @@ cv.imshow("hsv to rgb", hsv_rgb)
 plt.imshow(rgb)
 plt.show()
 
-
 cv.waitKey(0)
