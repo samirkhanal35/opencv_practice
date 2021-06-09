@@ -1,7 +1,7 @@
 import cv2 as cv
 import matplotlib.pyplot as plt
 
-img = cv.imread("photos/group.jpg")
+img = cv.imread("../basic_opencv/photos/group.jpg")
 cv.imshow('cat', img)
 
 # plt.imshow(img)

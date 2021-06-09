@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 
-img = cv.imread("photos/group.jpg")
+img = cv.imread("../basic_opencv/photos/group.jpg")
 cv.imshow("group", img)
 
 print("shape[:2]", img.shape[:2])
